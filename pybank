@@ -12,11 +12,7 @@ with open(budgetcsv, newline="") as csvfile:
 	csv_header = next(csvfile)
 	print(f"Header: {csv_header}")
 
-	
-	previousrevenue = int(budgetcsv[1])
-	avg_list = []
-	maxprof = change[0]
-	maxloss = change[0]
+
 	   total_revenue = 0
    	 total_months = 0
     	revenue_length = 0   
