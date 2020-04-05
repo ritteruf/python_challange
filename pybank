@@ -17,6 +17,17 @@ with open(budgetcsv, newline="") as csvfile:
 	avg_list = []
 	maxprof = change[0]
 	maxloss = change[0]
+	   total_revenue = 0
+   	 total_months = 0
+    	revenue_length = 0   
+    	avg_revenue_change = 0
+    	max_revenue_change = 0
+   	 min_revenue_change = 0
+   	 max_revenue_change_date = None
+   	 min_revenue_change_date = None
+   	 revenue = []
+   	 revenue_change = []
+  	  date = []
 
 	
 	for row in csvreader:
