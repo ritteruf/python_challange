@@ -1,3 +1,5 @@
+csvpath ="resources/budget_data.csv"
+
 import os
 import csv
 
